@@ -2,9 +2,9 @@
 
 > A curated list of resources, tools, custom firmware and open source work around the M-VAVE (Cuvave) FM-1 pocket FM synthesizer.
 
-The [FM-1](https://www.m-vave.com/product?id=fm-1) is a battery-powered, six-operator FM synthesizer with 32 algorithms, 27 silicone keys, a colour TFT screen, built-in effects, an arpeggiator and a step sequencer. It speaks Yamaha DX7 SysEx, so decades of DX7 patches load straight into it. It is built around a JieLi AC791N (WL82) SoC and updates its firmware over USB-MIDI SysEx, which is why it has become one of the most hackable synths of 2026: the updater was reverse-engineered within weeks of launch and a family of open source firmwares now runs on it.
+The FM-1 is a battery-powered, six-operator FM synthesizer with 32 algorithms, 27 silicone keys, a colour TFT screen, built-in effects, an arpeggiator and a step sequencer. It speaks Yamaha DX7 SysEx, so decades of DX7 patches load straight into it. It is built around a JieLi AC791N (WL82) SoC and updates its firmware over USB-MIDI SysEx, which is why it has become one of the most hackable synths of 2026: the updater was reverse-engineered within weeks of launch and a family of open source firmwares now runs on it.
 
-**Flashing unofficial firmware is at your own risk.** The flash has a single bank and the board has no debug header, so read the [recovery](#firmware-update-and-recovery) section before you install anything.
+**Flashing unofficial firmware is at your own risk.** The flash has a single bank and the board has no debug header, so read the recovery section below before you install anything.
 
 ## Contents
 
@@ -63,7 +63,7 @@ All of these install over USB from Chrome or Edge in a couple of minutes, and M-
 
 - [FM-1-RE](https://github.com/AL-255/FM-1-RE) - The deepest public analysis of the stock firmware: architecture, memory map, OTA protocol captures, security audit of recovery entry points, Ghidra scripts and V13/V14 firmware images. WTFPL.
 - [fm1-custom-fw](https://github.com/aroum/fm1-custom-fw) - Teardown photos, hardware notes (chip, flash, no debug pads), analysis of the macOS M-UPGRADE app and a Python SysEx flasher and scanner.
-- [fm1-nes](https://github.com/Keitark/fm1-nes) - Source-only integration with the JieLi AC79/WL82 SDK, build setup for the pi32v2 toolchain, and guides on application-only updates that preserve the bootloader. Start here if you want to write your own firmware.
+- [fm1-nes GETTING_STARTED](https://github.com/Keitark/fm1-nes/blob/main/GETTING_STARTED.md) - Source-only integration with the JieLi AC79/WL82 SDK, build setup for the pi32v2 toolchain, and guides on application-only updates that preserve the bootloader. Start here if you want to write your own firmware.
 - [fm1-emulator](https://github.com/simonjohansson/fm1-emulator) - Rust emulator that runs FM-1 firmware images (`.fwsc`, `.elf`, `.bin`) on your desktop with the screen, buttons and USB serial console, so you can test without flashing. GPL-3.0.
 - [fm1-firmware-patcher](https://github.com/czietz/fm1-firmware-patcher) - Binary patches for the stock V15 firmware: Dexed-accurate detune, removes aftertouch vibrato, recolours the oscilloscope. Unlicense.
 - [MVAVE-M-UPGRADE-decompiled](https://github.com/entitymar/MVAVE-M-UPGRADE-decompiled) - Decompilation of the official updater application.
@@ -78,8 +78,8 @@ All of these install over USB from Chrome or Edge in a couple of minutes, and M-
 Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fails the device may not boot, and the only way back in without opening the case is the chip's mask-ROM USB download mode, which needs a small hardware dongle.
 
 - [fm1-linux-update](https://github.com/fuleo/fm1-linux-update) - Update stock V14 to V15 from Linux with verification, since M-VAVE only ships Windows and macOS updaters. MIT.
-- [fm1_flasher.py](https://github.com/aroum/fm1-custom-fw) - Standalone CLI flasher and preset uploader from the fm1-custom-fw project.
-- [fm1_ota.py](https://github.com/AL-255/FM-1-RE) - Linux USB-MIDI update client from the FM-1-RE project, with offline protocol tests.
+- [fm1_flasher.py](https://github.com/aroum/fm1-custom-fw/blob/main/fm1_flasher.py) - Standalone CLI flasher and preset uploader from the fm1-custom-fw project.
+- [fm1_ota.py](https://github.com/AL-255/FM-1-RE/blob/main/tools/fm1_ota.py) - Linux USB-MIDI update client from the FM-1-RE project, with offline protocol tests.
 - [FM-1 Transporter](https://github.com/kurogedelic/FM-1-transporter) - Read and write the FM-1's flash from a Mac through a Seeed XIAO RP2040 wired to the USB data lines. Dumps the full flash in seconds and is the recovery path for a device that no longer starts. MIT.
 - [USB_KEY dongle notes](https://github.com/ip2k/lunar-modulator/blob/main/docs/10-usb-key-dongle.md) - Lunar Modulator's write-up of the RP2040 dongle that forces the AC791N into download mode over USB-C.
 - [How to update the firmware](https://medium.com/@shelvindatt02/how-to-update-the-firmware-on-your-m-vave-fm-1-synthesizer-7bc4ea2c3bd5) - Plain walkthrough of the official M-UPGRADE process.
@@ -109,17 +109,16 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 
 - [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) - Arduino board that turns a 3.5 mm sustain pedal into MIDI CC64 on the FM-1's TRS MIDI in, with schematics.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) - ESP32-S3 companion box: sustain pedal, rotary preset browser with a round TFT, WiFi soundbank manager, USB MIDI keyboard host and a sing-on-key trainer.
-- [FM-1 Transporter](https://github.com/kurogedelic/FM-1-transporter) - RP2040 flash dumper and recovery dongle, see above.
 
 ## Documentation and guides
 
 - [FM-1 MIDI Guide](https://m-vave-fm1-midi-guide.up.railway.app/) - Baud Girl's readable MIDI implementation: channels, CC map for the six effects, SysEx, clock sync.
 - [fm1-guide](https://fuleo.github.io/fm1-guide/) - Practical notes: sequencer tutorial, the V15 reverb fix and updating from Linux.
 - [FM-1 on Tao of Mac](https://taoofmac.com/space/com/m-vave/fm-1) - Rui Carmo's running notes and link collection on the device.
-- [FM-1 SysEx protocol](https://github.com/KingParamount/fm1-factory-presets) - Handshake, bank transfer and 7-bit payload encoding, documented while recovering the factory banks.
-- [OTA protocol and architecture docs](https://github.com/AL-255/FM-1-RE) - USB-MIDI framing, session behaviour and memory layout from the FM-1-RE project.
+- [FM-1 SysEx protocol](https://github.com/KingParamount/fm1-factory-presets/blob/main/docs/protocol-and-provenance.md) - Handshake, bank transfer and 7-bit payload encoding, documented while recovering the factory banks.
+- [OTA protocol and architecture docs](https://github.com/AL-255/FM-1-RE/blob/main/docs/io/11-ota-protocol.md) - USB-MIDI framing, session behaviour and memory layout from the FM-1-RE project.
 - [Felucca BUILDING.md](https://github.com/hugelton/Felucca/blob/main/BUILDING.md) - How to build a Felucca-family firmware from source.
-- [fm1-nes GETTING_STARTED](https://github.com/Keitark/fm1-nes) - Toolchain and SDK setup for writing firmware from scratch.
+- [fm1-nes APP_UPDATES](https://github.com/Keitark/fm1-nes/blob/main/APP_UPDATES.md) - How application-only updates preserve the stock bootloader.
 
 ## Articles and reviews
 
@@ -127,10 +126,10 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [FM-1 V15 update](https://synthanatomy.com/2026/07/m-vave-fm-1-a-budget-friendly-dx-7-style-desktop-fm-polysynth.html) - Launch coverage and the V15 feature rundown.
 - [Patch librarian](https://synthanatomy.com/2026/07/m-vave-fm-1-patch-librarian.html) - On Benny Sparra's browser librarian.
 - [Baud Girl FM-1+VA](https://synthanatomy.com/2026/09/baud-girl-fm-1-va-custom-m-vave-fm-1-firmware.html) - The first custom firmware.
-- [Felucca](https://synthanatomy.com/2026/10/hugelton-instruments-felucca-custom-m-vave-fm-1-firmware-turns-it-into-a-multi-engine-synth.html) - Felucca 1.0 coverage.
-- [SLOOP](https://synthanatomy.com/2026/10/3dsam-sloop-custom-firmware-turns-m-vave-fm-1-into-a-4-track-groovebox.html) - SLOOP coverage.
-- [X0X](https://synthanatomy.com/2026/10/charles-vestal-x0x-custom-firmware-turns-the-m-vave-fm-1-into-a-rebirth-like-groovebox.html) - X0X coverage.
-- [Groove OS](https://synthanatomy.com/2026/10/groove-os-turns-the-m-vave-fm-1-into-an-8-track-groovebox.html) - Groove OS coverage.
+- [Felucca](https://synthanatomy.com/2026/10/hugelton-instruments-felucca-custom-m-vave-fm-1-firmware-turns-it-into-a-multi-engine-synth.html) - Coverage of the 1.0 release.
+- [SLOOP](https://synthanatomy.com/2026/10/3dsam-sloop-custom-firmware-turns-m-vave-fm-1-into-a-4-track-groovebox.html) - On the four-track groovebox firmware.
+- [X0X](https://synthanatomy.com/2026/10/charles-vestal-x0x-custom-firmware-turns-the-m-vave-fm-1-into-a-rebirth-like-groovebox.html) - On the ReBirth-style firmware.
+- [Groove OS](https://synthanatomy.com/2026/10/groove-os-turns-the-m-vave-fm-1-into-an-8-track-groovebox.html) - On the commercial eight-track firmware.
 - [Custom firmware collection](https://pianoandsynth.com/m-vave-fm-1-custom-firmware-collection/) - Piano & Synth Magazine's comparison table of the firmwares.
 - [Free custom firmware for Mvave FM-1](https://sonicstate.com/news/2026/09/29/free-custom-firmware-for-mvave-fm-1-/) - Sonicstate on FM-1+VA.
 - [MatrixSynth: Felucca](https://www.matrixsynth.com/2026/10/fm-1-custom-firmware-felucca.html), [FM-1+VA](https://www.matrixsynth.com/2026/09/m-vave-fm-1-now-is-va-synthesizer-full.html), [Groove OS](https://www.matrixsynth.com/2026/10/groove-os-new-firmware-third-one-which.html) - Video round-ups.
