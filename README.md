@@ -89,7 +89,7 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 
 - [FM1 Editor & Librarian](https://fm1-editor.com/) - Browser-based DX7 voice editor and patch librarian built for the FM-1 by Benny Sparra: ten local banks, full operator editing, the FM-1 effects chain, SysEx import/export, six languages. Works with stock and FM-1+VA firmware. [Source](https://github.com/benny-sparra/fm1-dx7-patch-importer), MIT.
 - [DXcompanion](https://dxcompanion.uk/) - Free browser editor for the whole Yamaha DX family, with beta FM-1 support.
-- [Dexed](https://dexed.uk/) - The open source DX7 emulator and editor. The FM-1 accepts single-parameter SysEx from it, so you can edit live from the plugin.
+- [Dexed](https://asb2m10.github.io/dexed/) - The open source DX7 emulator and editor. The FM-1 accepts single-parameter SysEx from it, so you can edit live from the plugin.
 - [FM-1 Workbench](https://github.com/thegiantsnail/fm1-workbench-public) - Web app, Android app, VST3/CLAP controller plugin and an MCP server for the FM-1, with a DX7 voice library, randomize/mutate, drum sequencer and MIDI file player. [Live](https://fm1-workbench.web.app). GPL-3.0.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) - Software FM-1 as a standalone app and VST3/AU plugin for macOS, Windows and Linux, with two-way preset and pattern sync to hardware running FM-1+VA. GPL-3.0.
 - [FM-1 Pulses](https://github.com/mene311/fm1-pulses) - Generative browser sequencer that broadcasts MIDI live and can freeze 64-step phrases into the FM-1's patterns on FM-1+VA firmware. [Live](https://mene311.github.io/fm1-pulses/).
