@@ -155,7 +155,7 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [KVR Audio thread](https://www.kvraudio.com/forum/viewtopic.php?t=632127) - Long-running thread where the factory preset recovery and much of the early tooling were first shared.
 - [Elektronauts thread](https://www.elektronauts.com/t/m-vave-fm-1/252170) - Workflow discussion and firmware news.
 - [Gearspace thread](https://gearspace.com/threads/m-vave-fm-1.1465371/) - Owners' thread.
-- [Plugg Supply](https://plugg-supply.net/forum/gear-plugins/m-vave-fm-1-patch-librarian-free-browser-tool-for-dx-7-sound-transfer) - Russian-language coverage and discussion.
+- [Plugg Supply](https://plugg-supply.net/forum/gear-plugins/m-vave-fm-1-patch-librarian-free-browser-tool-for-dx-7-sound-transfer) - Forum post and discussion on the browser patch librarian.
 - [GitHub topic: m-vave](https://github.com/topics/m-vave) - Repositories tagged with the brand.
 
 ## Related M-VAVE projects
