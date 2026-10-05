@@ -135,7 +135,7 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [Free custom firmware for Mvave FM-1](https://sonicstate.com/news/2026/09/29/free-custom-firmware-for-mvave-fm-1-/) - Sonicstate on FM-1+VA.
 - [MatrixSynth: Felucca](https://www.matrixsynth.com/2026/10/fm-1-custom-firmware-felucca.html), [FM-1+VA](https://www.matrixsynth.com/2026/09/m-vave-fm-1-now-is-va-synthesizer-full.html), [Groove OS](https://www.matrixsynth.com/2026/10/groove-os-new-firmware-third-one-which.html) - Video round-ups.
 - [Time To House](https://timetohouse.com/en/articles/m-vave-fm-1-budget-dx7-fm-synth) - Launch article.
-- [Noizefield: SLOOP](https://noizefield.com/news/sloop-custom-firmware-turns-m-vave-fm-1-into-4-track-groovebox) - SLOOP coverage.
+- [Noizefield: SLOOP](https://www.noizefield.com/news/sloop-custom-firmware-turns-m-vave-fm-1-into-4-track-groovebox) - SLOOP coverage.
 
 ## Videos
 
