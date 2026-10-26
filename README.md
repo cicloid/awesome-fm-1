@@ -39,6 +39,7 @@ All of these install over USB from Chrome or Edge in a couple of minutes, and M-
 
 ### Open source
 
+- [Mutable Dreams](https://github.com/kidbee85-beep/mutable-dreams) - Six-track generative instrument by Kid Bunka / Christoph Link, with twelve engines, editable Biomes, user banks, shared effects and a playable browser instrument/live editor. GPL-3.0-only.
 - [Felucca](https://github.com/hugelton/Felucca) - Multi-engine synth firmware by Leo Kuroshita (Hügelton Instruments). Thirteen engines (6-op FM, VA, phase distortion, chiptune, sampler, granular, physical modelling, organ, drums), four tracks, 64-step sequencer, song mode, mod matrix, USB audio, [web installer](https://hugelton.github.io/Felucca/), [web editor](https://hugelton.github.io/Felucca/webapp/editor/) and [browser emulator](https://hugelton.github.io/Felucca/webapp/try/). The platform most other firmwares build on. GPL-3.0.
 - [SLOOP](https://github.com/isod89/sloop-fm1) - Live four-track groovebox by 3dSam: three synths plus a drum machine, 37 drum kits, punch-in FX, layer system, song mode, web editor. Based on Felucca. GPL-3.0.
 - [X0X](https://github.com/charlesvestal/fm1-x0x) - ReBirth-style groovebox by Charles Vestal: TR-909, TR-808, two TB-303s with TB-3PO acid generators and a breakbeat slicer, each with its own sequencer. Has a [browser emulator](https://charlesvestal.github.io/fm1-x0x/emu/) and [manual](https://charlesvestal.github.io/fm1-x0x/manual/). Felucca fork. GPL-3.0.
