@@ -258,6 +258,7 @@ All of these install over USB from Chrome or Edge in a couple of minutes, and M-
 - [CHORDS](https://github.com/Mighty-stack444/Chords-fm1) - Chord generator: pick a scale and root, white keys play the scale's chords, black keys its notes. Twelve sounds, voicings, hold, arpeggiator, bass and effects. Built on FoMni's platform. Not yet run on a real FM-1. GPL-3.0.
 - [SkurkyMello](https://github.com/joakimskurk/fm1mello) - Native FM-1 port of the SkurkyMello browser instrument, built on Dinghy; CI applies it as an overlay on a pinned Dinghy checkout. No releases. GPL-3.0.
 - [Shed](https://github.com/Luisnvb/fm1-shed) - Jazz ear-training mode built on FM1 Open: functional degrees, chord qualities, intervals, tensions, scales, dictation and a Vamp mode that loops a progression. Enter with HOME+SCL. [Shed Web](https://shed-web.vercel.app) for the browser. GPL-3.0 with linking exception.
+- [SPELLBOX](https://github.com/pjac1810/spellbox) - Talking spelling toy by Philippe Jaccoud, after the 1978 Speak & Spell: an 8-character fluorescent display, a 10-pole LPC voice at 8 kHz and the Spell, Letter, Say It, Secret Code and Mystery Word games, with the keys as an A-Z keyboard. SPEAK says what you type (12,000-word dictionary plus letter-to-sound rules), SING and LETTER SYNTH play words and letters on the keys, and circuit-bending knobs bend the chip. Speech made with espeak-ng, no TI data. 0.3 beta, [emulator and installer](https://pjac1810.github.io/spellbox/). Built on foma. GPL-3.0.
 
 ### Closed source
 
