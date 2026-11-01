@@ -2745,12 +2745,306 @@
         "rawSize": 610019,
         "sha256": "52bcd2428c098b373f237622a392424069219b83d87f7a5606ca91cf28430bfb",
         "stock": false
+      },
+      {
+        "download": {
+          "family": "hortator",
+          "flashSize": 602112,
+          "github": "DeadActive/hortator",
+          "license": "GPL-3.0",
+          "loaderSHA256": "cc98eed224299fa42ca22a546073e0f8b98d8362e26b5f325a9aaeab287bdf5d",
+          "notes": [
+            "beta",
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "drum-v0.26.0",
+          "requiresStockV15": true,
+          "size": 609649,
+          "sourceRepo": "https://github.com/DeadActive/hortator",
+          "url": "https://github.com/DeadActive/hortator/releases/download/drum-v0.26.0/hortator-0.26.0.fwsc"
+        },
+        "label": "Hortator 0.26.0 (hortator-0.26.0.fwsc)",
+        "product": "FM-1_900",
+        "rawSize": 609649,
+        "sha256": "f7773531bb4c349d0262249a4acf522c71250d64de2e96d29b3d92d215763963",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "demake",
+          "flashSize": 602112,
+          "github": "InigoHernandez/demake-synth",
+          "license": "GPL-3.0",
+          "loaderSHA256": "37d982d010c14cb1e2dc1d664846923e8a071548c1e71080c1c812e72895a42a",
+          "notes": [],
+          "releaseTag": "v0.4.24",
+          "requiresStockV15": true,
+          "size": 610113,
+          "sourceRepo": "https://github.com/InigoHernandez/demake-synth",
+          "url": "https://github.com/InigoHernandez/demake-synth/releases/download/v0.4.24/demake-0.4.24.fwsc"
+        },
+        "label": "Demake synth 0.4.24 (demake-0.4.24.fwsc)",
+        "product": "FM-1_969",
+        "rawSize": 610113,
+        "sha256": "b496d0efdfc403dba0d447a7987331cd7dbe2a5dbc8908cafbc2154f72f584da",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "mono2k",
+          "flashSize": 602112,
+          "github": "InigoHernandez/mono2k",
+          "license": "GPL-3.0",
+          "loaderSHA256": "37d982d010c14cb1e2dc1d664846923e8a071548c1e71080c1c812e72895a42a",
+          "notes": [],
+          "releaseTag": "v1.6.1",
+          "requiresStockV15": true,
+          "size": 610113,
+          "sourceRepo": "https://github.com/InigoHernandez/mono2k",
+          "url": "https://github.com/InigoHernandez/mono2k/releases/download/v1.6.1/mono2k-1.6.1.fwsc"
+        },
+        "label": "MONO2K 1.6.1 (mono2k-1.6.1.fwsc)",
+        "product": "FM-1_980",
+        "rawSize": 610113,
+        "sha256": "df5bc21caab14c4cb80430ef958b0400007839715e93820177ee033288e59e83",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "carnac",
+          "flashSize": 602112,
+          "github": "OwenKirby/carnac-os",
+          "license": "GPL-3.0",
+          "loaderSHA256": "ca93577fddc47710479dd2bda89501ea753be603bc63d7a0f7d2058ed9aec5e5",
+          "notes": [
+            "beta",
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "v0.9.6",
+          "requiresStockV15": true,
+          "size": 609680,
+          "sourceRepo": "https://github.com/OwenKirby/carnac-os",
+          "url": "https://github.com/OwenKirby/carnac-os/releases/download/v0.9.6/carnac-0.9.6.fwsc"
+        },
+        "label": "Carnac OS 0.9.6 (carnac-0.9.6.fwsc)",
+        "product": "FM-1_900",
+        "rawSize": 609680,
+        "sha256": "6d81a8d1186fecc8c4e8be082c163f5cc3d2a3286b70f66e42b4b941e604f1b2",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "arcticscream",
+          "flashSize": 602112,
+          "github": "PolarPatch/Arctic-scream-FM-1",
+          "license": "GPL-3.0",
+          "loaderSHA256": "096b3275c23d2d2435021302862769a8c477f6bf534c81b1a52adc14bc5cdaec",
+          "notes": [],
+          "releaseTag": "v1.2",
+          "requiresStockV15": true,
+          "size": 610110,
+          "sourceRepo": "https://github.com/PolarPatch/Arctic-scream-FM-1",
+          "url": "https://github.com/PolarPatch/Arctic-scream-FM-1/releases/download/v1.2/arctic-scream-1.2.fwsc"
+        },
+        "label": "Arctic Scream 1.2 (arctic-scream-1.2.fwsc)",
+        "product": "FM-1_977",
+        "rawSize": 610110,
+        "sha256": "5903464847fed9d808dc40d3ca689ea8ae424b61a0f192ae4cdfb27f61158721",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "beetle",
+          "flashSize": 602112,
+          "github": "SikkenWorks/BEETLE",
+          "license": "GPL-3.0",
+          "loaderSHA256": "d71d1b7c12adede951605e758a3580dacccedc427d49e1fceaf51decccc68a4b",
+          "notes": [],
+          "releaseTag": "V1.8",
+          "requiresStockV15": true,
+          "size": 610086,
+          "sourceRepo": "https://github.com/SikkenWorks/BEETLE",
+          "url": "https://github.com/SikkenWorks/BEETLE/releases/download/V1.8/BEETLE-V1.8.fwsc"
+        },
+        "label": "BEETLE 1.8 (BEETLE-V1.8.fwsc)",
+        "product": "FM-1_2123",
+        "rawSize": 610086,
+        "sha256": "6754b272d99284d218a9040ebb609187fdeec0e6fcd134bbb2f0b9a37f400d31",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "beetleblue",
+          "flashSize": 602112,
+          "github": "SikkenWorks/BEETLE-BLUE",
+          "license": "GPL-3.0",
+          "loaderSHA256": "d71d1b7c12adede951605e758a3580dacccedc427d49e1fceaf51decccc68a4b",
+          "notes": [
+            "beta"
+          ],
+          "releaseTag": "V1.0RC12",
+          "requiresStockV15": true,
+          "size": 610086,
+          "sourceRepo": "https://github.com/SikkenWorks/BEETLE-BLUE",
+          "url": "https://github.com/SikkenWorks/BEETLE-BLUE/releases/download/V1.0RC12/BEETLE-BLUE-V1.0.0-RC12.fwsc"
+        },
+        "label": "BEETLE BLUE 1.0 RC12 (BEETLE-BLUE-V1.0.0-RC12.fwsc)",
+        "product": "FM-1_2124",
+        "rawSize": 610086,
+        "sha256": "26d92c2fd014f11fac0d320209aeca193b00bc99dbedb5ab35bca6805a93f42a",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "etch",
+          "flashSize": 602112,
+          "github": "SikkenWorks/ETCH",
+          "license": "GPL-3.0",
+          "loaderSHA256": "d71d1b7c12adede951605e758a3580dacccedc427d49e1fceaf51decccc68a4b",
+          "notes": [],
+          "releaseTag": "V1.88",
+          "requiresStockV15": true,
+          "size": 610086,
+          "sourceRepo": "https://github.com/SikkenWorks/ETCH",
+          "url": "https://github.com/SikkenWorks/ETCH/releases/download/V1.88/ETCH-V1.88.fwsc"
+        },
+        "label": "ETCH 1.88 (ETCH-V1.88.fwsc)",
+        "product": "FM-1_1500",
+        "rawSize": 610086,
+        "sha256": "65bcb51012d81c9c8206c4843ce04b5c03177b8f09ed74313799ebec0798330f",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "felucca8",
+          "flashSize": 602112,
+          "github": "echoe/Felucca_seq_per_track",
+          "license": "GPL-3.0",
+          "loaderSHA256": "d578658e22250ad9c1616fe082671c2fec115e84f249b9e75973895270746203",
+          "notes": [],
+          "releaseTag": "1.6.1_and_sequences_2",
+          "requiresStockV15": true,
+          "size": 610090,
+          "sourceRepo": "https://github.com/echoe/Felucca_seq_per_track",
+          "url": "https://github.com/echoe/Felucca_seq_per_track/releases/download/1.6.1_and_sequences_2/felucca-1.6.1_sequences_2.fwsc"
+        },
+        "label": "Felucca 8 Patterns 1.6.1 sequences 2 (felucca-1.6.1_sequences_2.fwsc)",
+        "product": "FM-1_900",
+        "rawSize": 610090,
+        "sha256": "09074180318202b8b4ddbbc5f4a5261e90ea54fc3a95dbb6183b1d045786c60e",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "fm1gm",
+          "flashSize": 602112,
+          "github": "jartificer/fm1-gm",
+          "license": "GPL-3.0",
+          "loaderSHA256": "7405b7e9c7ec11c2c7e8d666b3b18a817f6c172c727dd52744da81573fe3f4ab",
+          "notes": [
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "v1.1.1",
+          "requiresStockV15": true,
+          "size": 609661,
+          "sourceRepo": "https://github.com/jartificer/fm1-gm",
+          "url": "https://github.com/jartificer/fm1-gm/releases/download/v1.1.1/fm1gm.fwsc"
+        },
+        "label": "FM1-GM 1.1.1 (fm1gm.fwsc)",
+        "product": "FM-1_600",
+        "rawSize": 609661,
+        "sha256": "4b093ef506dcb70c45880271aa347106ecaec6062c5072a5128a8275eb32b418",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "chipbox",
+          "flashSize": 602112,
+          "github": "pbarilla/chipbox",
+          "license": "GPL-3.0",
+          "loaderSHA256": "096b3275c23d2d2435021302862769a8c477f6bf534c81b1a52adc14bc5cdaec",
+          "notes": [],
+          "releaseTag": "v1.4.0-helpfulharold",
+          "requiresStockV15": true,
+          "size": 610110,
+          "sourceRepo": "https://github.com/pbarilla/chipbox",
+          "url": "https://github.com/pbarilla/chipbox/releases/download/v1.4.0-helpfulharold/chipbox-1.4.0-helpfulharold.fwsc"
+        },
+        "label": "chipbox 1.4.0 (chipbox-1.4.0-helpfulharold.fwsc)",
+        "product": "FM-1_337",
+        "rawSize": 610110,
+        "sha256": "36474c2fdd8f86d13a1f1f34bf72c303cc937becb08b206b78c83261c33b9bab",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "spellbox",
+          "flashSize": 602112,
+          "github": "pjac1810/spellbox",
+          "license": "GPL-3.0",
+          "loaderSHA256": "096b3275c23d2d2435021302862769a8c477f6bf534c81b1a52adc14bc5cdaec",
+          "notes": [
+            "beta"
+          ],
+          "releaseTag": "v0.3",
+          "requiresStockV15": true,
+          "size": 610110,
+          "sourceRepo": "https://github.com/pjac1810/spellbox",
+          "url": "https://github.com/pjac1810/spellbox/releases/download/v0.3/spellbox-0.3.fwsc"
+        },
+        "label": "SPELLBOX 0.3 (spellbox-0.3.fwsc)",
+        "product": "FM-1_573",
+        "rawSize": 610110,
+        "sha256": "b4b3f5ca96c4f7f5971586e9ada95cc343d789a8d4b3761b832c39f0920a4c05",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "fmini1",
+          "flashSize": 602112,
+          "github": "ruppert/fmini-1",
+          "license": "GPL-3.0",
+          "loaderSHA256": "d70d3e0a2918e4cdd0233d799f20d76b8e07c5142cb911742b98b58a498e0f19",
+          "notes": [],
+          "releaseTag": "v1.14.3",
+          "requiresStockV15": true,
+          "size": 610082,
+          "sourceRepo": "https://github.com/ruppert/fmini-1",
+          "url": "https://github.com/ruppert/fmini-1/releases/download/v1.14.3/fmini-1-fm1-1.14.3.fwsc"
+        },
+        "label": "FMini-1 1.14.3 (fmini-1-fm1-1.14.3.fwsc)",
+        "product": "FM-1_900",
+        "rawSize": 610082,
+        "sha256": "1c6370d7f698c02fc6c0cb84beaf7a665466cc278845832697cb4b6e3d65570a",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "dub",
+          "flashSize": 602112,
+          "github": "sbegueria/fm1-dub",
+          "license": "GPL-3.0",
+          "loaderSHA256": "021cbefed23a1b5c0c5c8efc8eb5893a388fa0da1ac31579aecb8914859900cb",
+          "notes": [
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "v1.4.3",
+          "requiresStockV15": true,
+          "size": 609666,
+          "sourceRepo": "https://github.com/sbegueria/fm1-dub",
+          "url": "https://github.com/sbegueria/fm1-dub/releases/download/v1.4.3/dub-1.4.3.fwsc"
+        },
+        "label": "DUB-1 1.4.3 (dub-1.4.3.fwsc)",
+        "product": "FM-1_8010403",
+        "rawSize": 609666,
+        "sha256": "19cc9649583192d0634467e18e28532078d4d7889231c9e842da7fb4ff869c0a",
+        "stock": false
       }
     ],
     "schema": 2
   },
   "format": "mooring-catalog",
-  "issued": "2026-10-29T18:14:41Z",
+  "issued": "2026-10-31T23:28:21Z",
   "loaders": {
     "loaders": [
       {
@@ -2926,6 +3220,6 @@
     ],
     "schema": 1
   },
-  "revision": 6,
+  "revision": 7,
   "schema": 3
 }
