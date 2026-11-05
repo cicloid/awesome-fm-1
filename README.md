@@ -6,6 +6,9 @@ The FM-1 is a battery-powered, six-operator FM synthesizer with 32 algorithms, 2
 
 **Flashing unofficial firmware is at your own risk.** The flash has a single bank and the board has no debug header, so read the recovery section below before you install anything.
 
+> [!WARNING]
+> FM-1s sold since autumn have a different flash chip (UC25HQ80) in place of the Puya. A firmware that checks only for the Puya's ID keeps saves in RAM, losing them at power-off, and its updater refuses every later install. The device can then be recovered only through the chip's download mode. ([Felucca issue #320](https://github.com/hugelton/Felucca/issues/320), [The Firmware Hub rescue page](https://thefirmwarehub.com/tools/rescue/#chip))
+
 ## Contents
 
 - [Official](#official)
