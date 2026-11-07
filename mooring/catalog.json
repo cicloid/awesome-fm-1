@@ -330,7 +330,6 @@
           "url": "https://github.com/hugelton/Felucca/releases/download/v1.6.1/felucca-1.6.1.fwsc"
         },
         "label": "Felucca 1.6.1 (felucca-1.6.1.fwsc)",
-        "pick": 1,
         "product": "FM-1_916",
         "rawSize": 610090,
         "sha256": "dff3a38f7e5b9833e15aba322558c9485e9e422e3ff813c616c91b3584a2d909",
@@ -354,7 +353,6 @@
           "url": "https://github.com/isod89/sloop-fm1/releases/download/v2.7.1/sloop-2.7.1.fwsc"
         },
         "label": "SLOOP 2.7.1 (sloop-2.7.1.fwsc)",
-        "pick": 3,
         "product": "FM-1_900",
         "rawSize": 610035,
         "sha256": "7c9d269d15d1c1a48e0ebada7ffa2c2aa196c19d51056fd3f760d322322b335f",
@@ -465,7 +463,6 @@
           "url": "https://github.com/charlesvestal/fm1-x0x/releases/download/v1.1.0/x0x-1.1.0.fwsc"
         },
         "label": "X0X 1.1.0 (x0x-1.1.0.fwsc)",
-        "pick": 2,
         "product": "FM-1_9010100",
         "rawSize": 609684,
         "sha256": "a0c29deb930c65f1d40b5691b7d673f861418b438b7e65027cb9c671e6f44f5b",
@@ -3396,6 +3393,7 @@
           "url": "https://github.com/hugelton/Felucca/releases/download/v1.8.2-beta/felucca-1.8.2-beta.fwsc"
         },
         "label": "Felucca 1.8.2-beta (felucca-1.8.2-beta.fwsc)",
+        "pick": 1,
         "product": "FM-1_918",
         "rawSize": 610286,
         "sha256": "b57724fff5a9b55b67d6f8a7d852e68d5d5814ed6fb769ec80a274fb44958e12",
@@ -3418,6 +3416,7 @@
           "url": "https://github.com/isod89/sloop-fm1/releases/download/v2.8.5/sloop-2.8.5.fwsc"
         },
         "label": "SLOOP 2.8.5 (sloop-2.8.5.fwsc)",
+        "pick": 3,
         "product": "FM-1_900",
         "rawSize": 610076,
         "sha256": "b0446effb840740a3aa5c386ce004e79334e4f833d48d82a9eb5edbfde92ae67",
@@ -3568,6 +3567,7 @@
           "url": "https://github.com/charlesvestal/fm1-x0x/releases/download/v1.2.1/x0x-1.2.1.fwsc"
         },
         "label": "X0X 1.2.1 (x0x-1.2.1.fwsc)",
+        "pick": 2,
         "product": "FM-1_9010201",
         "rawSize": 609682,
         "sha256": "b0039140d54459d678e27b4101895018d3e127f16ee9e1f1e432459d772b3827",
@@ -3796,12 +3796,277 @@
         "rawSize": 610257,
         "sha256": "47b9e58ac3a6b3b4796c9aa3fffecd1b3375cb5c53ceebc119ffc1d34c55cc13",
         "stock": false
+      },
+      {
+        "download": {
+          "family": "fm106",
+          "flashSize": 602112,
+          "github": "PatttF/fm-106",
+          "license": "GPL-3.0",
+          "loaderSHA256": "30710db9b6b299616c6ca9b7cf6b67f4f532b530207b5f7f3f5f4b5785455d7b",
+          "notes": [],
+          "releaseTag": "1.0",
+          "requiresStockV15": true,
+          "size": 611486,
+          "sourceRepo": "https://github.com/PatttF/fm-106",
+          "url": "https://github.com/PatttF/fm-106/releases/download/1.0/fm106.fwsc"
+        },
+        "label": "FM-106 1.0 (fm106.fwsc)",
+        "product": "FM-1_907",
+        "rawSize": 611486,
+        "sha256": "41746d625216f1647964c7d8993be3e0b9e1950b415288e723603fa5f8c45ca6",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "arcticscream",
+          "flashSize": 602112,
+          "github": "PolarPatch/Arctic-scream-FM-1",
+          "license": "GPL-3.0",
+          "loaderSHA256": "361fa12701e8b165386fdb765c692b5a7b8a01d56449d3050ebdbcc17269ad42",
+          "notes": [],
+          "releaseTag": "v1.4",
+          "requiresStockV15": true,
+          "size": 610160,
+          "sourceRepo": "https://github.com/PolarPatch/Arctic-scream-FM-1",
+          "url": "https://github.com/PolarPatch/Arctic-scream-FM-1/releases/download/v1.4/arctic-scream-1.4.fwsc"
+        },
+        "label": "Arctic Scream 1.4 (arctic-scream-1.4.fwsc)",
+        "product": "FM-1_977",
+        "rawSize": 610160,
+        "sha256": "16ac8a85fe956e2b985064b63621826c992b18f536ff7718f8770b03e60419db",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "amb",
+          "flashSize": 602112,
+          "github": "charlesvestal/fm1-amb",
+          "license": "MPL-2.0",
+          "loaderSHA256": "ee908462c79c11794ebb1992cdc2f6e5079edd99435826e768374ad7fc52661b",
+          "notes": [
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "v1.3.2",
+          "requiresStockV15": true,
+          "size": 614938,
+          "sourceRepo": "https://github.com/charlesvestal/fm1-amb",
+          "url": "https://github.com/charlesvestal/fm1-amb/releases/download/v1.3.2/amb-1.3.2.fwsc"
+        },
+        "label": "AMB-1 1.3.2 (amb-1.3.2.fwsc)",
+        "product": "FM-1_7010302",
+        "rawSize": 614938,
+        "sha256": "a949a6a2a1ced8b3857d156ad0409a55e6ba53bbdd4094d0a38f2779364064f3",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "ctl",
+          "flashSize": 602112,
+          "github": "charlesvestal/fm1-ctl",
+          "license": "MPL-2.0",
+          "loaderSHA256": "ee908462c79c11794ebb1992cdc2f6e5079edd99435826e768374ad7fc52661b",
+          "notes": [
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "v1.0.3",
+          "requiresStockV15": true,
+          "size": 614938,
+          "sourceRepo": "https://github.com/charlesvestal/fm1-ctl",
+          "url": "https://github.com/charlesvestal/fm1-ctl/releases/download/v1.0.3/ctl-usb-1.0.3.fwsc"
+        },
+        "label": "CTL-1 1.0.3 (USB build) (ctl-usb-1.0.3.fwsc)",
+        "product": "FM-1_6010003",
+        "rawSize": 614938,
+        "sha256": "e7fad235f4676463ac64cce534ab24043a22d86ad73358946a2520438e918bdf",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "polly",
+          "flashSize": 602112,
+          "github": "charlesvestal/fm1-polly",
+          "license": "GPL-3.0",
+          "loaderSHA256": "ee908462c79c11794ebb1992cdc2f6e5079edd99435826e768374ad7fc52661b",
+          "notes": [
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "v0.6.2",
+          "requiresStockV15": true,
+          "size": 614938,
+          "sourceRepo": "https://github.com/charlesvestal/fm1-polly",
+          "url": "https://github.com/charlesvestal/fm1-polly/releases/download/v0.6.2/polly-0.6.2.fwsc"
+        },
+        "label": "Polly 0.6.2 (polly-0.6.2.fwsc)",
+        "product": "FM-1_3000602",
+        "rawSize": 614938,
+        "sha256": "77dce089612e1d68a35ee6d2374d5d0612a667952b8f2ef632a6c27fb7235d56",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "felucca8",
+          "flashSize": 602112,
+          "github": "echoe/argo_fm1",
+          "license": "GPL-3.0",
+          "loaderSHA256": "3dcbefa7d80ba143dce55ed44e899154b003e9ea8ff0ca4c4eabc07b9d2e0273",
+          "notes": [],
+          "releaseTag": "1.7.0",
+          "requiresStockV15": true,
+          "size": 610286,
+          "sourceRepo": "https://github.com/echoe/argo_fm1",
+          "url": "https://github.com/echoe/argo_fm1/releases/download/1.7.0/felucca-1.70.fwsc"
+        },
+        "label": "Argo 1.7.0 (formerly Felucca 8 Patterns) (felucca-1.70.fwsc)",
+        "product": "FM-1_900",
+        "rawSize": 610286,
+        "sha256": "4a1ffe6f5527e3ad25b432984b2d3841106124bd3dc082d8d395635bdfa8c48d",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "bytemania",
+          "flashSize": 602112,
+          "github": "llozd/bytemania",
+          "license": "GPL-3.0",
+          "loaderSHA256": "096b3275c23d2d2435021302862769a8c477f6bf534c81b1a52adc14bc5cdaec",
+          "notes": [],
+          "releaseTag": "v1.3.0",
+          "requiresStockV15": true,
+          "size": 610110,
+          "sourceRepo": "https://github.com/llozd/bytemania",
+          "url": "https://github.com/llozd/bytemania/releases/download/v1.3.0/bytemania-1.3.0.fwsc"
+        },
+        "label": "bytemania 1.3.0 (bytemania-1.3.0.fwsc)",
+        "product": "FM-1_943",
+        "rawSize": 610110,
+        "sha256": "ef0c262041a26bd53ace714c4fb603487d4442839170576977feeff604561697",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "orbit",
+          "flashSize": 602112,
+          "license": "GPL-3.0",
+          "loaderSHA256": "64ca6a6af0d5b8e567562f55c3e22ec4d32d129b04eec82bd585446c1c82166b",
+          "notes": [],
+          "releaseTag": "1.0.1B",
+          "requiresStockV15": true,
+          "size": 610032,
+          "sourceRepo": "https://github.com/dspaudio/orbit",
+          "url": "https://thefirmwarehub.com/fw/orbit-1.0.1B.fwsc"
+        },
+        "label": "ORBIT 1.0.1B (orbit-1.0.1B.fwsc)",
+        "product": "FM-1_900",
+        "rawSize": 610032,
+        "sha256": "7309faae591d43cc21490c5a465dc4143ac4e3939c4482c8a1214bc16d61e164",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "hyp1",
+          "flashSize": 602112,
+          "license": "GPL-3.0",
+          "loaderSHA256": "7325ef7f2319722ef04950cf81f086a8806b11feba782303fa6ad3b1d524299d",
+          "notes": [
+            "powerLossNotResumable"
+          ],
+          "releaseTag": "1.5.62",
+          "requiresStockV15": true,
+          "size": 609657,
+          "sourceRepo": "https://github.com/RustyPawz/fm1-HYP1",
+          "url": "https://thefirmwarehub.com/fw/hyp1-1.5.62.fwsc"
+        },
+        "label": "HYP-1 1.5.62 (hyp1-1.5.62.fwsc)",
+        "product": "FM-1_7010562",
+        "rawSize": 609657,
+        "sha256": "7b858f2acb7c9913fbc2118f769db1ee8b548c6570186c376c266b915c27c777",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "prysm",
+          "flashSize": 602112,
+          "github": "NicholasPratt/Prysm",
+          "license": "GPL-3.0",
+          "loaderSHA256": "c696fec1fd71f61409d04e60e78c077a0cacb351e67373c00a4995de68426ba2",
+          "notes": [],
+          "releaseTag": "v1.6",
+          "requiresStockV15": true,
+          "size": 612225,
+          "sourceRepo": "https://github.com/NicholasPratt/Prysm",
+          "url": "https://github.com/NicholasPratt/Prysm/releases/download/v1.6/prysm-1.6.fwsc"
+        },
+        "label": "Prysm 1.6 (prysm-1.6.fwsc)",
+        "product": "FM-1_989",
+        "rawSize": 612225,
+        "sha256": "c0c447ed22e0240e3c2d0f35ade744c973b8c40db1f53e707da7c225632097e8",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "chipbox",
+          "flashSize": 602112,
+          "github": "pbarilla/chipbox",
+          "license": "GPL-3.0",
+          "loaderSHA256": "823d78e495b0087a734d22911ee5ab0d7aa2faa03272710350ef37766132228e",
+          "notes": [],
+          "releaseTag": "v1.4.1",
+          "requiresStockV15": true,
+          "size": 610131,
+          "sourceRepo": "https://github.com/pbarilla/chipbox",
+          "url": "https://github.com/pbarilla/chipbox/releases/download/v1.4.1/chipbox-1.4.1.fwsc"
+        },
+        "label": "chipbox 1.4.1 (chipbox-1.4.1.fwsc)",
+        "product": "FM-1_337",
+        "rawSize": 610131,
+        "sha256": "9e9e3b0ecee6a50990205b6504234867dc12647c58687ee42ced0a0e3a8df79b",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "dinghy",
+          "flashSize": 602112,
+          "github": "zvenson/dinghy",
+          "license": "GPL-3.0",
+          "loaderSHA256": "947e452ebcccc03bbd79778b84524811ecaeb5cba65c0d6012ec9c33ee34353a",
+          "notes": [],
+          "releaseTag": "v0.5",
+          "requiresStockV15": true,
+          "size": 612218,
+          "sourceRepo": "https://github.com/zvenson/dinghy",
+          "url": "https://github.com/zvenson/dinghy/releases/download/v0.5/dinghy-0.5.fwsc"
+        },
+        "label": "Dinghy 0.5 (dinghy-0.5.fwsc)",
+        "product": "FM-1_995",
+        "rawSize": 612218,
+        "sha256": "139da045ea20eb5e772e7da5242ae2efaa0dcd9b533ac169992f7795a77efb90",
+        "stock": false
+      },
+      {
+        "download": {
+          "family": "tonitor",
+          "flashSize": 602112,
+          "license": "GPL-3.0",
+          "loaderSHA256": "6e1e45c8c941c0b27e389cb4fcb52218df6b27ef75ec7fed43ca6680e6bed1bf",
+          "notes": [],
+          "releaseTag": "2026.11.07",
+          "requiresStockV15": true,
+          "size": 610014,
+          "sourceRepo": "https://github.com/nzimas/tonitor",
+          "url": "https://thefirmwarehub.com/fw/tonitor-2026.11.07.fwsc"
+        },
+        "label": "Tonitor 2026.11.07 (tonitor-2026.11.07.fwsc)",
+        "product": "FM-1_700",
+        "rawSize": 610014,
+        "sha256": "9d75721de58b1f5f296fd1a87fff11adeb56bd5068359d6e3c06edd1afc87809",
+        "stock": false
       }
     ],
     "schema": 2
   },
   "format": "mooring-catalog",
-  "issued": "2026-11-06T00:48:14Z",
+  "issued": "2026-11-07T13:46:08Z",
   "loaders": {
     "loaders": [
       {
@@ -4058,10 +4323,30 @@
         "family": "feluccaG2",
         "sha256": "323925fd68511e4152f67955132a572929b60d80ac0192b3ab1e573625478df9",
         "source": "source comparison, no capture (fm-1 review 2026-11-05): ldr_core.c, loader.c, ota.c = Felucca a4d7ca2, 0 lines; only usb.c/fm1_sys.h local changes; MOONDAW 0.3"
+      },
+      {
+        "family": "sloopG3",
+        "sha256": "c696fec1fd71f61409d04e60e78c077a0cacb351e67373c00a4995de68426ba2",
+        "source": "source comparison, no capture (fm-1 review 2026-11-07): Loader closure = Prysm 1.3 (row 59bcce97, G3), 0 lines in ldr_core.c/loader.c/ota.c/usb.c. Only FL_JEDEC_OK gains 0xB36014 and libc.c gains memmove; Prysm 1.6"
+      },
+      {
+        "family": "sloopG3",
+        "sha256": "823d78e495b0087a734d22911ee5ab0d7aa2faa03272710350ef37766132228e",
+        "source": "source comparison, no capture (fm-1 review 2026-11-07): ldr_core.c = d30d655, 0 lines; loader.c = SLOOP 2.8.5 (FL_JEDEC_OK); usb.c frame hooks = GRiMM's (row 361fa127); ota.c adds only app-only #ifdef OTA_PROJ_IO; chipbox 1.4.1"
+      },
+      {
+        "family": "sloopG3",
+        "sha256": "947e452ebcccc03bbd79778b84524811ecaeb5cba65c0d6012ec9c33ee34353a",
+        "source": "source comparison, no capture (fm-1 review 2026-11-07): Loader closure = Dinghy 0.4 (row ed816e84, G3), 0 lines in every file except fm1_flash_map.h, where FL_JEDEC_OK gains 0xB36014; Dinghy 0.5"
+      },
+      {
+        "family": "sloopG3",
+        "sha256": "6e1e45c8c941c0b27e389cb4fcb52218df6b27ef75ec7fed43ca6680e6bed1bf",
+        "source": "source comparison, no capture (fm-1 review 2026-11-07): Public source (GPL-3.0). ldr_core.c = d30d655 apart from comment lines; loader.c = SLOOP 2.8.5 (FL_JEDEC_OK); usb.c frame hooks = d30d655's; ota.c change is #ifndef FELUCCA_LOADER. No release tag, but the repo's committed package equals the hub sample byte for byte; Tonitor 2026.11.07 (build 72)"
       }
     ],
     "schema": 1
   },
-  "revision": 9,
+  "revision": 10,
   "schema": 3
 }
