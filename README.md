@@ -21,6 +21,7 @@ The FM-1 is a battery-powered, six-operator FM synthesizer with 32 algorithms, 2
 - [Editors, librarians and companion software](#editors-librarians-and-companion-software)
 - [Patches and sound banks](#patches-and-sound-banks)
 - [Hardware add-ons](#hardware-add-ons)
+- [Physical cases and reference designs](#physical-cases-and-reference-designs)
 - [Documentation and guides](#documentation-and-guides)
 - [Articles and reviews](#articles-and-reviews)
 - [Videos](#videos)
@@ -405,6 +406,16 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [fm1-midi-voice-tuner](https://github.com/pfkellogg/fm1-midi-voice-tuner) - Passive TRS MIDI splitter with a mic input and OLED that tells a singer whether they are on the FM-1's note.
 - [fm1buddy](https://github.com/konsumer/fm1buddy) - Cheap touchscreen box (Freenove ESP32-S3, no soldering) that runs an FM-1 or SMK-37 without a computer: installs firmware from SD or mutant.cloud over WiFi, backs up and recovers, and plays it from USB and Bluetooth MIDI gear with routing, clock, arp, chords, an X/Y pad and WAVs to sample banks. [Browser install guide](https://konsumer.github.io/fm1buddy/). GPL-3.0.
 - [fm1-cartridge](https://github.com/andrerezemini/fm1-cartridge) - ESP32-S3 cartridge with its own LiPo that acts as USB host for a modified SLOOP: it renders Clipper, Melodee or Felucca and returns stereo audio over USB. Experimental bench prototype; the repo lists hardware checks still to do. GPL-3.0.
+
+## Physical cases and reference designs
+
+- [M-Vave FM-1 model by Zande Creates](https://grabcad.com/library/m-vave-fm-1-1) - Very accurate reference model of the FM-1. Made using 3D scanning and verified with manual caliper measurements.
+- [Elegant M-VAVE FM-1 Case by perspector](https://www.printables.com/model/1908323-elegant-m-vave-fm-1-case) - 3D printed case that the FM-1 slides into, with a latching cap. Includes sine, tri, square, and saw embossing.
+- [M-Vave FM-1 Case by nuxnik](https://www.printables.com/model/1819065-m-vave-fm-1-case) - 3D printed snap-on cover, has multicolor FM-1 layout design on cover.
+- [M-VAVE FM-1 Sleeve / protective cover by Jankko](https://www.printables.com/model/1893132-m-vave-fm-1-sleeve-protective-cover) - Slim 3D printed slide-in case with open end.
+- [M-WAVE FM-1 protective case by Earstorm](https://www.printables.com/model/1894693-m-wave-fm-1-protective-case) - 3D printed bumper case for the FM-1, protects corners and back.
+- [M-Vave FM-1 Snap-Fit Backplate for Making Accessories, Cases, Holders, etc. by Dr Yakub](https://www.printables.com/model/1904331-m-vave-fm-1-snap-fit-backplate-for-making-accessor) - Snap-fit template for adding to other projects.
+- [M-VAVE FM-1 Protective Cover & Stand by vin](https://makerworld.com/en/models/3304079-m-vave-fm-1-protective-cover-stand?from=search#profileId-3750256) - 3D printed protective cover that doubles as a 22° stand when flipped. Includes a compartment for cables.
 
 ## Documentation and guides
 
