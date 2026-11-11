@@ -483,6 +483,7 @@ Not about the FM-1, but the same company, often the same chips and the same reve
 - [mvave-blackbox-nam](https://github.com/tomanizer/mvave-blackbox-nam) - Research towards running Neural Amp Modeler on the Blackbox pedal. Early, research baseline with no firmware built yet. MIT.
 - [SMK37 OPEN](https://github.com/m-vave/smk37_open) - M-VAVE's official open firmware, web workbench and binary SDK for the SMK-37 Pro and Elite. GPL-3.0 with the SDK linking exception.
 - [SLOOP Pro](https://github.com/isod89/sloop-pro) - The SLOOP groovebox on the SMK-37 Pro, Elite and MKE, by isod89 with a board layer by genkigenki, with an HTML editor in each release. GPL-3.0.
+- [Mewcoder](https://github.com/MiloMeowzers/sloop-smk37/tree/mewcoder) - SLOOP 2.8.4 for the SMK-37 by MiloMeowzers. Track 3 becomes a 20-channel vocoder modelled on the Sennheiser VSM201, with two routed USB audio inputs (voice, an external carrier, or an instrument through T1 / T2), played from the keys and the sequencer. It leaves out the built-in samples and six engines to make room. [Web installer](https://milomeowzers.github.io/sloop-smk37/mewcoder/). Released and tested for the Elite; the Pro has the same hardware. GPL-3.0.
 - [jellybean-37](https://github.com/edco/jellybean-37) - Open dual-engine firmware for the SMK-37 Pro (Juno-60-style VA plus DX7) with a host simulator and RAM loader. No licence stated.
 
 ## Contributing
