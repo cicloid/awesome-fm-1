@@ -6,6 +6,7 @@ Thanks for helping keep this list useful.
 
 - Anything specifically about the M-VAVE / Cuvave FM-1: firmware, tools, editors, patches, hardware add-ons, documentation, long-form articles and videos.
 - Open source work is preferred. Closed or commercial projects are fine when they are notable and clearly labelled.
+- Firmware, tools and docs made only for the SMK-37 keyboards (Pro, Elite, MKE-P37) go under *SMK-37*. A project that runs on both the FM-1 and the SMK-37 goes in its FM-1 section and says so.
 - Projects for other M-VAVE devices go under *Related M-VAVE projects* only when they share hardware, protocols or tooling with the FM-1.
 
 ## How to add an entry

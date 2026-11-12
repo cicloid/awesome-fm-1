@@ -21,10 +21,15 @@ The FM-1 is a battery-powered, six-operator FM synthesizer with 32 algorithms, 2
 - [Editors, librarians and companion software](#editors-librarians-and-companion-software)
 - [Patches and sound banks](#patches-and-sound-banks)
 - [Hardware add-ons](#hardware-add-ons)
+- [Physical cases and reference designs](#physical-cases-and-reference-designs)
 - [Documentation and guides](#documentation-and-guides)
 - [Articles and reviews](#articles-and-reviews)
 - [Videos](#videos)
 - [Communities](#communities)
+- [SMK-37](#smk-37)
+  - [Official](#official-1)
+  - [Firmware](#firmware)
+  - [Tools and documentation](#tools-and-documentation)
 - [Related M-VAVE projects](#related-m-vave-projects)
 
 ## Official
@@ -270,6 +275,10 @@ All of these install over USB from Chrome or Edge in a couple of minutes, and M-
 - [LAX-32](https://github.com/pjac1810/lax32) - Multitimbral LA-style sound module by Philippe Jaccoud, after the 1987 Roland MT-32: 8 parts and a rhythm part on MIDI channels 2-10, 128 synthesized sounds in MT-32 program order, 30 drums, 32 partials, four reverb modes and a 20-character dot-matrix LCD, for DOS game music and MIDI files over USB. Adds an arpeggiator per part and a 6-track, 64-step sequencer modelled on Skiff's (chords, chance and trig conditions, ratchets, nudge, live and step recording). No Roland ROM. 0.2 beta, [emulator and installer](https://pjac1810.github.io/lax32/). Built on foma. GPL-3.0.
 - [MIAOU](https://github.com/pjac1810/miaou) - Kitty keyboard by Philippe Jaccoud, after the B. toys Meowsic: piano, bells, organ, a plucked banjo and a meow voice through moving formants (the paw button makes every key meow), five toy beats, 20 children's songs and 7 cat songs, a 50-note recorder, and the cat's face on screen with eyes that follow the notes. Adds an arpeggiator and a 6-track, 64-step sequencer modelled on Skiff's. 0.1 beta, [emulator and installer](https://pjac1810.github.io/miaou/). Built on foma. GPL-3.0.
 - [RIFT (mykeln)](https://github.com/mykeln/fm1-rift) - Experimental drone firmware by Myke Nahorniak: nine oscillator and modulation modes with stereo feedback and frequency translation. 0.2 is tested on a computer only; not yet checked on hardware, and no release yet. Not related to Vaayaa's RIFT. Built on Felucca. GPL-3.0-only.
+- [Big Beat Studio BB-BOB](https://thebigbeat.app/bb-bob/about/) - Western swing firmware by TexasRADIO after Bob Wills and his Texas Playboys: 50 playable arrangements, a tune generator that writes a fresh melody, changes and arrangement, band calls and steel cues, and a Then/Now control that turns the band toward electric guitar, acid bass and drum-machine beats. [Installer](https://thebigbeat.app/bb-bob/install/) and [source](https://thebigbeat.app/bb-bob/downloads/BB-BOB-50-Source-r2.zip); no GitHub repository. GPL-3.0-only.
+- [Compás](https://github.com/TexasRADIO/compas-firmware) - Latin rhythm section firmware by TexasRADIO for cumbia, salsa, merengue and bolero, with phrase-synced section cues and TR-727 percussion, in English and Spanish builds. Version 1.1, [installer](https://thebigbeat.app/compas/install/) and [browser player](https://thebigbeat.app/compas/play/). Uses BB1's loader. GPL-3.0-only.
+- [DX747](https://github.com/esbenvb/fm1-dx747) - Eight-part multitimbral DX7 module by esbenvb with layers, splits and scenes, 128 factory voices and DX7 cartridge import, built for MIDI; it replaces the stock sequencer, sampler and drum machine. One page holds the [web installer](https://esbenvb.github.io/fm1-dx747/#update), [editor](https://esbenvb.github.io/fm1-dx747/#configure) and [browser emulator](https://esbenvb.github.io/fm1-dx747/#device), plus a PDF manual. Keeps M-VAVE's update loader, so other firmware installs over it. Built on M-VAVE's open firmware. Version 0.1. GPL-3.0 with linking exception.
+- [Guru-600](https://github.com/MarcGoudy/guru-600) - Prophet-600 firmware by Marc Massé: 255 sounds (the Prophet-600's 100 factory programs, the free v2022 collection and 55 of its own), four tracks with sequencer, arpeggiator, morph and two insert effects each, a [web editor](https://marcgoudy.github.io/guru-600/editor/) in seven languages with a panel after the Prophet-600, and a Mac app. Version 1.0.2, [web installer](https://marcgoudy.github.io/guru-600/). Built on Felucca. GPL-3.0.
 
 ### Closed source
 
@@ -406,6 +415,16 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [fm1buddy](https://github.com/konsumer/fm1buddy) - Cheap touchscreen box (Freenove ESP32-S3, no soldering) that runs an FM-1 or SMK-37 without a computer: installs firmware from SD or mutant.cloud over WiFi, backs up and recovers, and plays it from USB and Bluetooth MIDI gear with routing, clock, arp, chords, an X/Y pad and WAVs to sample banks. [Browser install guide](https://konsumer.github.io/fm1buddy/). GPL-3.0.
 - [fm1-cartridge](https://github.com/andrerezemini/fm1-cartridge) - ESP32-S3 cartridge with its own LiPo that acts as USB host for a modified SLOOP: it renders Clipper, Melodee or Felucca and returns stereo audio over USB. Experimental bench prototype; the repo lists hardware checks still to do. GPL-3.0.
 
+## Physical cases and reference designs
+
+- [M-Vave FM-1 model](https://grabcad.com/library/m-vave-fm-1-1) - Reference CAD model of the FM-1 by Zande Creates, made from a 3D scan and checked with caliper measurements.
+- [Elegant M-VAVE FM-1 Case](https://www.printables.com/model/1908323-elegant-m-vave-fm-1-case) - 3D-printed case by perspector that the FM-1 slides into, with a latching cap and sine, triangle, square or saw embossing.
+- [M-Vave FM-1 Case](https://www.printables.com/model/1819065-m-vave-fm-1-case) - 3D-printed snap-on cover by nuxnik with a multicolour FM-1 layout on the lid.
+- [M-VAVE FM-1 Sleeve](https://www.printables.com/model/1893132-m-vave-fm-1-sleeve-protective-cover) - Slim 3D-printed slide-in sleeve by Jankko, open at one end.
+- [M-WAVE FM-1 protective case](https://www.printables.com/model/1894693-m-wave-fm-1-protective-case) - 3D-printed bumper by Earstorm that covers the corners and back.
+- [M-Vave FM-1 Snap-Fit Backplate](https://www.printables.com/model/1904331-m-vave-fm-1-snap-fit-backplate-for-making-accessor) - Snap-fit template by Dr Yakub for building cases, holders and other accessories.
+- [M-VAVE FM-1 Protective Cover & Stand](https://makerworld.com/en/models/3304079-m-vave-fm-1-protective-cover-stand) - 3D-printed cover by vin that flips over into a 22° stand, with a compartment for cables.
+
 ## Documentation and guides
 
 - [FM-1 MIDI Guide](https://m-vave-fm1-midi-guide.up.railway.app/) - Baud Girl's readable MIDI implementation: channels, CC map for the six effects, SysEx, clock sync.
@@ -459,19 +478,38 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [Plugg Supply](https://plugg-supply.net/forum/gear-plugins/m-vave-fm-1-patch-librarian-free-browser-tool-for-dx-7-sound-transfer) - Forum post and discussion on the browser patch librarian.
 - [GitHub topic: m-vave](https://github.com/topics/m-vave) - Repositories tagged with the brand.
 
+## SMK-37
+
+M-VAVE's SMK-37 keyboards (Pro and Elite, and the MKE-P37) share the FM-1's DX7 engine and much of its tooling, and several FM-1 firmwares and tools in this list also run on them; those entries say so. Everything here is for the keyboards only.
+
+### Official
+
+- [SMK37 OPEN](https://github.com/m-vave/smk37_open) - M-VAVE's official open firmware, web workbench and binary SDK for the SMK-37 Pro and Elite. GPL-3.0 with the SDK linking exception.
+
+### Firmware
+
+- [SLOOP Pro](https://github.com/isod89/sloop-pro) - The SLOOP groovebox on the SMK-37 Pro, Elite and MKE, by isod89 with a board layer by genkigenki, with an HTML editor in each release. GPL-3.0.
+- [SLOOP SMK-37](https://github.com/MiloMeowzers/sloop-smk37) - SLOOP 2.8.1 for the SMK-37 Pro, Elite and MKE-P37 by MiloMeowzers, with the keyboard as SLOOP's panel and six mono 24-bit USB audio stems to the DAW (drums in four groups, the synths, the reverb and delay return), punch-in effects on every stem, sequencer effects (FLIP, LOOP BACK, RAMP) and a DAW mode. [Web installer](https://milomeowzers.github.io/sloop-smk37/). Board layer by genkigenki. Tested on an Elite. GPL-3.0.
+- [Mewcoder](https://github.com/MiloMeowzers/sloop-smk37/tree/mewcoder) - SLOOP 2.8.4 build for the SMK-37 by MiloMeowzers where track 3 becomes a 20-channel vocoder modelled on the Sennheiser VSM201, fed by two USB audio inputs (voice, an external carrier, or an instrument through T1 or T2's effects) and played from the keys and the sequencer. Leaves out the built-in samples and six engines to make room. [Web installer](https://milomeowzers.github.io/sloop-smk37/mewcoder/) and [manual](https://github.com/MiloMeowzers/sloop-smk37/blob/mewcoder/VOCODER.md). Released and tested for the Elite. GPL-3.0.
+- [Felucca SMK](https://github.com/ChanceTheMaker/felucca-smk) - Felucca ported to the SMK-37 Pro and Elite by Chance Roth, with a browser Studio and simulator. 0.9.30 Beta. GPL-3.0.
+- [Big Beat Studio BB-37](https://github.com/TexasRADIO/smk37-elite-firmware) - Firmware by TexasRADIO for the SMK-37 Pro, Elite and MKE-P37 with Telegram, an SH-101-style synth, Dillo, a TB-303-style bass synth, and a synthesised 808, with pad-launched Band arrangements. The [browser installer](https://thebigbeat.app/elite/install/) detects the model and picks its package. Version 1.0.0. GPL-3.0-only.
+- [Makkuro37](https://github.com/genkigenki/Makkuro37) - Microtonal drone synth for the SMK-37 by genkigenki: eight drones, 96 presets in six themes, with a [web installer](https://genkigenki.github.io/smk37/) and [simulator](https://genkigenki.github.io/smk37/makkuro37-sim/). Board layer from SLOOP. GPL-3.0.
+- [Vector37](https://github.com/genkigenki/Vector37) - Orbiting overtone synth for the SMK-37 Pro by genkigenki: four corners of overtone generators blended by a sun and moon on an orbit, with eight sounds. Installs with `tools/fm1_install.py`. GPL-3.0.
+- [jellybean-37](https://github.com/edco/jellybean-37) - Open dual-engine firmware for the SMK-37 Pro (Juno-60-style VA plus DX7) with a host simulator and RAM loader. No licence stated.
+- [smk37-firmware-custom-mod](https://github.com/amalahama/smk37-firmware-custom-mod) - Custom firmware and flasher for the SMK-37 Pro keyboard, which shares the FM-1's DX7 engine.
+
+### Tools and documentation
+
+- [fm1-to-smk37](https://github.com/genkigenki/fm1-to-smk37) - Kit for migrating open FM-1 firmwares to the SMK-37 with a coding agent such as Claude Code, and for developing for both boards from one source. By genkigenki. [Website](https://genkigenki.github.io/smk37/kit.html). No license declared.
+- [smk-37-pro-docs](https://github.com/jonathaslacerda/smk-37-pro-docs) - Community documentation for the SMK-37 Pro.
+
 ## Related M-VAVE projects
 
-Not about the FM-1, but the same company, often the same chips and the same reverse-engineering crowd.
+Not about the FM-1 or the SMK-37, but the same company, often the same chips and the same reverse-engineering crowd.
 
-- [smk37-firmware-custom-mod](https://github.com/amalahama/smk37-firmware-custom-mod) - Custom firmware and flasher for the SMK-37 Pro keyboard, which shares the FM-1's DX7 engine.
-- [smk-37-pro-docs](https://github.com/jonathaslacerda/smk-37-pro-docs) - Community documentation for the SMK-37 Pro.
 - [mvave-chocolate-sysex](https://github.com/cbix/mvave-chocolate-sysex) and [OpenChocolate](https://github.com/majabojarska/OpenChocolate) - SysEx protocol and open web configurator for the Chocolate footswitches.
 - [mvave-blackbox-reverse-engineering](https://github.com/jakino0/mvave-blackbox-reverse-engineering) and [mvave-blackbox-edit](https://github.com/jvsobrinho/mvave-blackbox-edit) - Protocol research and a Web Bluetooth editor for the BlackBox amp modeller.
 - [Cuvave Looper Pro protocol](https://gist.github.com/michaelforney/d3a2790bb5f8cbcb1c931eabb50b5f20) - SysEx protocol notes for the Looper Pro.
-- [Felucca SMK](https://github.com/ChanceTheMaker/felucca-smk) - Felucca ported to the SMK-37 Pro and Elite by Chance Roth, with a browser Studio and simulator. 0.9.30 Beta. GPL-3.0.
-- [fm1-to-smk37](https://github.com/genkigenki/fm1-to-smk37) - Kit for migrating open FM-1 firmwares to the SMK-37 with a coding agent such as Claude Code, and for developing for both boards from one source. By genkigenki. [Website](https://genkigenki.github.io/smk37/kit.html). No license declared.
-- [Makkuro37](https://github.com/genkigenki/Makkuro37) - Microtonal drone synth for the SMK-37 by genkigenki: eight drones, 96 presets in six themes, with a [web installer](https://genkigenki.github.io/smk37/) and [simulator](https://genkigenki.github.io/smk37/makkuro37-sim/). Board layer from SLOOP. GPL-3.0.
-- [Vector37](https://github.com/genkigenki/Vector37) - Orbiting overtone synth for the SMK-37 Pro by genkigenki: four corners of overtone generators blended by a sun and moon on an orbit, with eight sounds. Installs with `tools/fm1_install.py`. GPL-3.0.
 - [mvave-blackbox-linux](https://github.com/Bulrok/mvave-blackbox-linux) - Native Linux control, cab IR upload and the documented USB-MIDI SysEx protocol for the Blackbox pedal, plus a Wine patch for the vendor editor. GPL-3.0.
 - [smc-mixer-linux](https://github.com/Bulrok/smc-mixer-linux) and [smc-bridge](https://github.com/dhtseany/smc-bridge) - Two Linux bridges for the SMC-Mixer: one exposes its BLE-MIDI as an ALSA sequencer port, the other maps it to jack_mixer. GPL-3.0.
 - [mvave-irbox-tools](https://github.com/marco-jardim/mvave-irbox-tools) - Open-source editor and protocol docs for the IR Box cab simulator over USB-MIDI: backup and restore of 32 slots, IR upload, EQ and volume. MIT.
@@ -481,9 +519,6 @@ Not about the FM-1, but the same company, often the same chips and the same reve
 - [mvave-tank-mini-protocol](https://github.com/xxyurirangelxx/mvave-tank-mini-protocol) - Reverse-engineered BLE and USB-MIDI protocol specification for the Tank Mini pedal by Yuri Rangel. Portuguese README.
 - [zoom-ms-chocolate-midi](https://github.com/nilsjesper/zoom-ms-chocolate-midi) - Generates a CubeSuite preset so a Chocolate Plus footswitch controls a Zoom MS-50G, with SysEx notes. MIT.
 - [mvave-blackbox-nam](https://github.com/tomanizer/mvave-blackbox-nam) - Research towards running Neural Amp Modeler on the Blackbox pedal. Early, research baseline with no firmware built yet. MIT.
-- [SMK37 OPEN](https://github.com/m-vave/smk37_open) - M-VAVE's official open firmware, web workbench and binary SDK for the SMK-37 Pro and Elite. GPL-3.0 with the SDK linking exception.
-- [SLOOP Pro](https://github.com/isod89/sloop-pro) - The SLOOP groovebox on the SMK-37 Pro, Elite and MKE, by isod89 with a board layer by genkigenki, with an HTML editor in each release. GPL-3.0.
-- [jellybean-37](https://github.com/edco/jellybean-37) - Open dual-engine firmware for the SMK-37 Pro (Juno-60-style VA plus DX7) with a host simulator and RAM loader. No licence stated.
 
 ## Contributing
 
