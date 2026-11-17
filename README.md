@@ -309,6 +309,7 @@ All of these install over USB from Chrome or Edge in a couple of minutes, and M-
 - [TransitFM1](https://github.com/Quixotic7/TransitFM1) - Silent stopover firmware for moving between custom firmwares: answers installers as V15, brings ChoralRoot's flash safeguards and writes the next firmware itself. 0.1.2 was withdrawn. GPL-3.0.
 - [Threadboard](https://github.com/NotAKerbal/threadboard-fm1) - Turns the FM-1 into a physical console for T3 Code, Codex or Claude Code threads: each active thread gets a white key, and key lights flag questions, approvals and finished work. Firmware plus a local bridge and dashboard. MIT.
 - [FM1 time-signal source](https://github.com/rfb/fm1-time-signal-source) - Repurposes the FM-1 as a WWV-style time-signal station feeding an AM/SSB transmitter, keeping the fictional Haida Standard Time for amateur station VA7BFR. [Browser flasher and simulator](https://rfb.github.io/fm1-time-signal-source/). Based on FM1 Open. GPL-3.0 with linking exception.
+- [MORSE](https://github.com/daviddwlee84/fm1-morse) - Morse code trainer and keyer by Da-Wei Lee: key on the piano keys (straight key or iambic paddles) and read what you sent, drill short and long presses, learn by ear with flash cards and endless listening practice. Keying goes over USB-MIDI in the Vail adapter's format. Built on fm1-base. GPL-3.0-or-later.
 
 ## Reverse engineering and firmware development
 
