@@ -279,6 +279,7 @@ All of these install over USB from Chrome or Edge in a couple of minutes, and M-
 - [Compás](https://github.com/TexasRADIO/compas-firmware) - Latin rhythm section firmware by TexasRADIO for cumbia, salsa, merengue and bolero, with phrase-synced section cues and TR-727 percussion, in English and Spanish builds. Version 1.1, [installer](https://thebigbeat.app/compas/install/) and [browser player](https://thebigbeat.app/compas/play/). Uses BB1's loader. GPL-3.0-only.
 - [DX747](https://github.com/esbenvb/fm1-dx747) - Eight-part multitimbral DX7 module by esbenvb with layers, splits and scenes, 128 factory voices and DX7 cartridge import, built for MIDI; it replaces the stock sequencer, sampler and drum machine. One page holds the [web installer](https://esbenvb.github.io/fm1-dx747/#update), [editor](https://esbenvb.github.io/fm1-dx747/#configure) and [browser emulator](https://esbenvb.github.io/fm1-dx747/#device), plus a PDF manual. Keeps M-VAVE's update loader, so other firmware installs over it. Built on M-VAVE's open firmware. Version 0.1. GPL-3.0 with linking exception.
 - [Guru-600](https://github.com/MarcGoudy/guru-600) - Prophet-600 firmware by Marc Massé: 255 sounds (the Prophet-600's 100 factory programs, the free v2022 collection and 55 of its own), four tracks with sequencer, arpeggiator, morph and two insert effects each, a [web editor](https://marcgoudy.github.io/guru-600/editor/) in seven languages with a panel after the Prophet-600, and a Mac app. Version 1.0.2, [web installer](https://marcgoudy.github.io/guru-600/). Built on Felucca. GPL-3.0.
+- [h1](https://github.com/jakehandy/h1) - Custom firmware by Jake Handy: fourteen instruments with dynamic visuals. Eight algorithms and four live knobs, plus a loop recorder, a step sequencer, an arpeggiator and a metronome. Works on both the original flash chip and the newer UC25HQ80. Uses fm1-base. [Guide](https://jakehandy.com/h1), [browser simulator](https://jakehandy.com/public/h1/simulator.html). MIT.
 
 ### Closed source
 
@@ -399,6 +400,7 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [PocketFM](https://github.com/HolidayMan/fm1-ios) - Native iOS FM-1 panel with the same eight pinned instruments as FM-1 for Android. Prototype tested on an iPhone 12, not an App Store release. Source tarballs in releases. GPL-3.0.
 - [Harbor](https://github.com/markterm/harbor) - Android app that plays FM-1 firmwares unchanged on the fm1-emu emulator, with USB and Bluetooth MIDI. APK in releases. No licence stated.
 - [FM-1 Pocket](https://github.com/Prado-Design/fm1-pocket) - Phone web app (add to home screen) running the official FM1 Open V14 firmware compiled to WebAssembly behind a custom faceplate, offline after first load. GPL-3.0-only with the FM1 SDK linking exception.
+- [FM-1 Browser Simulator](https://github.com/jakehandy/fm1-browser-simulator) - Play any M-VAVE FM-1 firmware in a web browser from an .rfm1 file, with the screen, sound, keys, encoders, buttons and lights. [Live page](https://jakehandy.github.io/fm1-browser-simulator/). MIT.
 
 ## Patches and sound banks
 
