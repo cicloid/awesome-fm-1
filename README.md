@@ -438,6 +438,7 @@ Stock updates and every custom installer go over USB-MIDI SysEx. If a flash fail
 - [FM-1 Firmware Atlas](https://github.com/wero1414/atlas-fm-1) - Single-page [directory](https://wero1414.github.io/atlas-fm-1/) of known FM-1 firmwares with engines, MIDI, activity status and a six-step path for new owners. Data in `data/firmwares.json`. CC0.
 - [FM-1 learning handbook](https://github.com/itoyohane/fm1-learning-web) - Unofficial offline bilingual manual with tutorials for Felucca (v1.6.1), SLOOP (2.6) and official firmware, with search and key cheat sheets. [Read it](https://www.learnfm1.top). Chinese and English.
 - [FM-1 Lab](https://github.com/web255078-lab/fm1-lab) - Japanese interactive course on the FM-1 (16 chapters, about 11 hours) as an offline-capable static site with a connection diagnostic. Chapters 1-5 are finished and 6-16 are drafts. No licence stated.
+- [Program SLX](https://programslx.app/) - Free web app by Tobia Marconi: 100 short creative exercises you play on the FM-1, on SLOOP, sloopDX, Felucca and other firmware, with credits to each. English, Italian and French. Closed source.
 
 ## Articles and reviews
 
